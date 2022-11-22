@@ -14,7 +14,33 @@
 			<div class="blurb">
         		<h1><center>Remplir mon profil</center></h1>
 				
-					<p> Bienvenue sur la page de connexion aux carnets de récolte des usages du numériques </p></center>
+					<p> Personnalisez votrre profil de récolteurs ! </p></center>
+				
+				<label for="avatar">Télécharger un visuel de profil</label>
+
+<input type="file"
+       id="avatar" name="avatar"
+       accept="image/png, image/jpeg">
+
+				
+				<form action="/ma-page-de-traitement" method="post">
+    <div>
+        <label for="name">Pseudonyme</label>
+        <input type="text" id="name" name="user_name">
+    </div>
+    <div>
+        <label for="mail">Adresse mail pour rester en contact&nbsp;:</label>
+        <input type="email" id="mail" name="user_mail">
+    </div>
+    <div>
+        <label for="msg">Préférences </label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+					
+</form>
+				
+				
+				
 <center><form action="http://onzeun.github.io/carnetV0/enregistre.html">
     <input type="submit" value="Enregistrer">
 </form></center>
