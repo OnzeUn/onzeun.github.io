@@ -12,18 +12,45 @@
 			
 				<form action="/ma-page-de-traitement" method="post">
     <div>
-        <label for="name">Nom :</label>
+        <label for="name">Titre de la situation vécue :</label>
         <input type="text" id="name" name="user_name">
     </div>
     <div>
-        <label for="mail">e-mail&nbsp;:</label>
+        <label for="mail">Outil cible utilisé&nbsp;:</label>
         <input type="email" id="mail" name="user_mail">
     </div>
     <div>
-        <label for="msg">Message :</label>
+        <label for="msg">Description de la situation</label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+					<div>
+        <label for="msg">Lieux, personne(s) présente(s), déroulement:</label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+					<div>
+        <label for="msg">Autre(s) ressources (s) ou personne(s) mobilisée(s):</label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+					<div>
+        <label for="msg">Difficulté et/ou satisfaction rencontrées:</label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+					<div>
+        <label for="msg">Astuce et futurs imaginés par la situation :</label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+					<div>
+        <label for="msg">En dire plus :</label>
         <textarea id="msg" name="user_message"></textarea>
     </div>
 </form>
+				
+				<label for="avatar">Télécharger un visuel:</label>
+
+<input type="file"
+       id="avatar" name="avatar"
+       accept="image/png, image/jpeg">
+
 			
 			
 				
