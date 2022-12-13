@@ -28,17 +28,20 @@
         <form>
     <h1>Décrire une nouvelle situation</h1>
     <table>
-    <tr><td width="150px">Name:</td> <td><input class="say" type="text" value="Situation vécue" onClick="value=''"/></td></tr>
-      <tr><td width="150px">Name:</td> <td><input class="say" type="text" value="Outil cible utilisé" onClick="value=''"/></td></tr>
+    <tr><td width="150px">Situation vécue</td> <td><input class="say" type="text" value="..." onClick="value=''"/></td></tr>
+      <tr><td width="150px">Outil cible utilisé</td> <td><input class="say" type="text" value="..." onClick="value=''"/></td></tr>
 
-    <tr><td>Email:</td> <td><input class="say" type="text" value="username@domain.com" onClick="value=''"/></td></tr>
-    <tr><td>Message:</td> <td><textarea class="say">Ce qu'il s'est passé (lieux, personne(s) présente(s), déroulement,...)</textarea></td></tr>
-      <tr><td>Message:</td> <td><textarea class="say">Autres ressource(s) ou support(s) mobilisé(s)</textarea></td></tr>
-      <tr><td>Message:</td> <td><textarea class="say">Difficulté(s) rencontrée(s) et source(s) de satisfaction</textarea></td></tr>
+	    <fieldset>
+ <legend> Description de la situation </legend>	
+    
+    <tr><td>Ce qu'il s'est passé (lieux, personne(s) présente(s), déroulement,...)</td> <td><textarea class="say">...</textarea></td></tr>
+      <tr><td>Autres ressource(s) ou support(s) mobilisé(s)</td> <td><textarea class="say">...</textarea></td></tr>
+      <tr><td>Difficulté(s) rencontrée(s) et source(s) de satisfaction</td> <td><textarea class="say">...</textarea></td></tr>
+		    </fieldset>
       
-            <tr><td width="150px">Name:</td> <td><input class="say" type="text" value="Futurs imaginés par cette situation" onClick="value=''"/></td></tr>
-      <tr><td width="150px">Name:</td> <td><input class="say" type="text" value="En dire plus" onClick="value=''"/></td></tr>
-      <tr><label for="avatar">Insérer un visuel</label>
+            <tr><td width="150px">Futurs imaginés par cette situation</td> <td><input class="say" type="text" value="..." onClick="value=''"/></td></tr>
+      <tr><td width="150px">En dire plus</td> <td><input class="say" type="text" value="..." onClick="value=''"/></td></tr>
+	    <tr><td width="150px">Insérer un visuel</td> <td><input class="say" type="text" value="Mon visuel" onClick="value=''"/></td>
 
 <input type="file"
        id="avatar" name="avatar"
