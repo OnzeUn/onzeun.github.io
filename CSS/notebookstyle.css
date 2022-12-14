@@ -43,13 +43,13 @@ form a {
 }
 
 form td {
-    font: italic 24px/30px 'Loved by the King', cursive;
+    font: "trebuchet ms",sans-serif;
     line-height: 30px;
     margin-bottom: 30px;
 }
 
 form h1 {
-    font: italic 30px/30px 'Loved by the King', cursive;
+    font: "trebuchet ms",sans-serif;
 }
 
 .say {
@@ -59,6 +59,6 @@ outline: 0;
 border-bottom: dotted skyBlue;
 width: 200px;
 font: 20px/30px serif;
-font-family: 'Loved by the King', cursive;
+font-family: "trebuchet ms",sans-serif;
 resize: none;
 }
