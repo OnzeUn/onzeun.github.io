@@ -25,6 +25,10 @@
 			
 				<center><form action="/ma-page-de-traitement" method="post">
     <div>
+        <label for="name">Quand ? (Date, heure, durée)</label>
+        <input type="text" id="name" name="user_name">
+    </div>
+					<div>
         <label for="name">Situation vécue</label>
         <input type="text" id="name" name="user_name">
     </div>
@@ -39,7 +43,7 @@
 					
 					
 					<div>
-        <label for="msg">Ce qu'il s'est passé (Lieux, personne(s) présente(s), déroulement)</label>
+        <label for="msg">Ce qu'il s'est passé (Personne(s) impliquée(s), lieux, déroulement)</label>
         <textarea id="msg" name="user_message"></textarea>
     </div>
 					<div>
@@ -47,7 +51,11 @@
         <textarea id="msg" name="user_message"></textarea>
     </div>
 					<div>
-        <label for="msg">Difficulté(s) rencontrée(s) et source(s) de satisfaction </label>
+        <label for="msg">Difficulté(s) rencontrée(s) </label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+		<div>
+        <label for="msg">Astuces </label>
         <textarea id="msg" name="user_message"></textarea>
     </div>
 		
@@ -56,10 +64,7 @@
         <label for="msg">Futurs imaginés pour cette situation </label>
         <textarea id="msg" name="user_message"></textarea>
     </div>
-					<div>
-        <label for="msg">En dire plus </label>
-        <textarea id="msg" name="user_message"></textarea>
-    </div>
+					
 </form></center>
 				
 				<center><label for="avatar">Insérer un visuel</label>
